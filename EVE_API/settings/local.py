@@ -55,8 +55,8 @@ ROOT_URLCONF = 'EVE_API.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.dirname(os.path.dirname(os.path.dirname(os.path.join(BASE_DIR, 'templates'))))]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,10 +75,12 @@ WSGI_APPLICATION = 'EVE_API.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+# print(os.path.join(BASE_DIR, 'db.sqlite3'))
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.dirname(os.path.dirname(os.path.dirname(os.path.join(BASE_DIR, 'db.sqlite3'))))
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 }
 
