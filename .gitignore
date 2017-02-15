@@ -65,8 +65,6 @@ fabric.properties
 venv
 staticfiles
 .env
-old_settings.py
-#local.py
-#base.py
+local.py
 
 # End of https://www.gitignore.io/api/django,pycharm
