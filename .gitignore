@@ -65,7 +65,7 @@ fabric.properties
 venv
 staticfiles
 .env
-local.py
+EVE_API/settings/local.py
 .idea
 
 # End of https://www.gitignore.io/api/django,pycharm
