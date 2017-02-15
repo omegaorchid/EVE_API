@@ -19,8 +19,8 @@ from api import views
 
 admin.autodiscover()
 
-urlpatterns = {
+urlpatterns = [
     # url(r'^$', views.e400, name='400'),
     url(r'^$', views.home, name='home'),
     url(r'^admin/', include(admin.site.urls)),
-}
+]
