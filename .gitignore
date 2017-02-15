@@ -63,5 +63,6 @@ fabric.properties
 # *.ipr
 
 .env
+old_settings.py
 
 # End of https://www.gitignore.io/api/django,pycharm

@@ -13,7 +13,7 @@ def home(request):
     return render(request=request, template_name=template, context=content)
 
 
-def e400():
-    template = '400.html'
-
-    return render(template_name=template)
+# def e400():
+#     template = '400.html'
+#
+#     return render(template_name=template)
