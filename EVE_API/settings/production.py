@@ -25,7 +25,7 @@ SECRET_KEY = '*ut80!mt&traa*ka-)rbh!#sl0t$fng6k5%2_dp$5837k6s66j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['young-falls-38683.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
