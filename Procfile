@@ -1,1 +1,1 @@
-web: gunicorn EVE.wsgi
+web: gunicorn EVE_API.wsgi --log-file -
