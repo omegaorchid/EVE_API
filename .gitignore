@@ -62,7 +62,11 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+venv
+staticfiles
 .env
 old_settings.py
+local.py
+base.py
 
 # End of https://www.gitignore.io/api/django,pycharm
